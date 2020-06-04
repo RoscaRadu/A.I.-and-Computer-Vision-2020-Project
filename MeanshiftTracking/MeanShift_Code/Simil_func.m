@@ -1,6 +1,4 @@
-%% Mean-Shift Video Tracking
-% by Sylvain Bernhardt
-% July 2008
+
 %% Description
 % Measures the similarity between two
 % density estimations q and p done with

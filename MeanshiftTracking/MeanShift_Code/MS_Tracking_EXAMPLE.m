@@ -1,7 +1,5 @@
-%% Mean-Shift Video Tracking
-% by Sylvain Bernhardt
-% July 2008
-%% Description
+
+
 % This is a simple example of how to use
 % the Mean-Shift video tracking algorithm
 % implemented in 'MeanShift_Algorithm.m'.
@@ -19,7 +17,7 @@ close all
 % and time it with tic/toc
 tic
 [Length,height,width,Movie]=...
-    Import_mov('Videos/Ball.avi');
+    Import_mov('Videos/vid.avi');
 toc
 
 %% Play the movie

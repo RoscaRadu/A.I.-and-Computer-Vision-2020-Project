@@ -1,11 +1,8 @@
-%% Mean-Shift Video Tracking
-% by Sylvain Bernhardt
-% July 2008
-%% Description
-% Estimate the density of data samples
-% (here colour histogram) in a patch T
-% with a kernel profile k. Lmap is the
-% colormap length and H,W the patch size.
+
+% Estimate the density of the colour histogram
+% in a patch T with a kernel profile k.
+% Lmap is the colormap length and H,W the patch size.
+
 
 function q = Density_estim(T,Lmap,k,H,W,graph)
 q = zeros(Lmap,1);

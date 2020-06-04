@@ -1,7 +1,5 @@
-%% Mean-Shift Video Tracking
-% by Sylvain Bernhardt
-% July 2008
-%% Description
+
+
 % Tracks a patch 'T' in a video sequence 'Movie'
 % using the Mean-Shift algorithm.
 % f is the similiraty function between the original patch
@@ -61,12 +59,7 @@ while f(f_indx)<f_thresh && step<max_it
         x = x+dx;
     end
     % Detection of target loss or out of frame boundaries
-    if (y<1 || y>height-H) || (x<1 || x>width-W)
-        loss = 1;
-        Target_Loss_Dialog_Box();
-        uiwait(Target_Loss_Dialog_Box);
-        break;
-    end
+  
     % Update the target
     T2 = I2(y:y+H-1,x:x+W-1);
     p = Density_estim(T2,Lmap,k,H,W,0);

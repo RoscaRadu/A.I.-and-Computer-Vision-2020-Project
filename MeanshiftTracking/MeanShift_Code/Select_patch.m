@@ -1,6 +1,4 @@
-%% Mean-Shift Video Tracking
-% by Sylvain Bernhardt
-% July 2008
+
 %% Description
 % It permit to select a patch T from
 % an image I.

@@ -1,11 +1,6 @@
-%% Mean-Shift Video Tracking
-% by Sylvain Bernhardt
-% July 2008
-%% Description
-% Insert in the image I a rectangle
-% which size is H,W and thickness is
-% expressed in pixels.
-%
+
+
+%   Target Drawing function, Rectangle of size H,W 
 % I = Draw_target(x,y,W,H,I,thick)
 
 function I = Draw_target(x,y,W,H,I,thick)

@@ -1,6 +1,4 @@
-%% Mean-Shift Algorithm
-% by Sylvain Bernhardt
-% July 2008
+
 %% Description
 % Computes the mask of a Parzen window
 % and its gradient in respect of the x-axis

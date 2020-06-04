@@ -1,10 +1,7 @@
-%% Mean-Shift Video Tracking
-% by Sylvain Bernhardt
-% July 2008
-% Updated March 2012
-%% Description
+
+
 % Import a AVI video file from its 'path'.
-% The output is its length, size (height,width)
+% The output is the length, size (height,width)
 % and the video sequence read by Matlab from
 % this AVI file.
 %
